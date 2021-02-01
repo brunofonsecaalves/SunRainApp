@@ -1,0 +1,9 @@
+platform :ios, '14.2'
+
+target 'SunRain' do
+  use_frameworks!
+
+  # Pods for SunRain
+  
+  pod 'CLTypingLabel', '~> 0.4.0'
+end

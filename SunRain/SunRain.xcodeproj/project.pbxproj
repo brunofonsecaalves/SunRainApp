@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		397C345C25C0879A000D5A0A /* ClimaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397C345B25C0879A000D5A0A /* ClimaViewController.swift */; };
+		397C346225C0990C000D5A0A /* SunRainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397C346125C0990C000D5A0A /* SunRainModel.swift */; };
+		397C346625C09922000D5A0A /* SunRainData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397C346525C09922000D5A0A /* SunRainData.swift */; };
+		397C346D25C099ED000D5A0A /* SunRainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397C346C25C099ED000D5A0A /* SunRainManager.swift */; };
+		39DB0F1A25BF4A8A00953A72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DB0F1925BF4A8A00953A72 /* AppDelegate.swift */; };
+		39DB0F1C25BF4A8A00953A72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DB0F1B25BF4A8A00953A72 /* SceneDelegate.swift */; };
+		39DB0F1E25BF4A8A00953A72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DB0F1D25BF4A8A00953A72 /* ViewController.swift */; };
+		39DB0F2125BF4A8A00953A72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39DB0F1F25BF4A8A00953A72 /* Main.storyboard */; };
+		39DB0F2325BF4A8E00953A72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39DB0F2225BF4A8E00953A72 /* Assets.xcassets */; };
+		39DB0F2625BF4A8E00953A72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39DB0F2425BF4A8E00953A72 /* LaunchScreen.storyboard */; };
+		4400F4173A9611BEEC0F7561 /* Pods_SunRain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC785FEB9A873CAFA4A6982 /* Pods_SunRain.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C857FC5397002A205142D9B /* Pods-SunRain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunRain.release.xcconfig"; path = "Target Support Files/Pods-SunRain/Pods-SunRain.release.xcconfig"; sourceTree = "<group>"; };
+		397C345B25C0879A000D5A0A /* ClimaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaViewController.swift; sourceTree = "<group>"; };
+		397C346125C0990C000D5A0A /* SunRainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunRainModel.swift; sourceTree = "<group>"; };
+		397C346525C09922000D5A0A /* SunRainData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunRainData.swift; sourceTree = "<group>"; };
+		397C346C25C099ED000D5A0A /* SunRainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunRainManager.swift; sourceTree = "<group>"; };
+		39DB0F1625BF4A8A00953A72 /* SunRain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunRain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39DB0F1925BF4A8A00953A72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39DB0F1B25BF4A8A00953A72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		39DB0F1D25BF4A8A00953A72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39DB0F2025BF4A8A00953A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39DB0F2225BF4A8E00953A72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39DB0F2525BF4A8E00953A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39DB0F2725BF4A8E00953A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A3DC37E08BF464DF142FA6D /* Pods-SunRain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunRain.debug.xcconfig"; path = "Target Support Files/Pods-SunRain/Pods-SunRain.debug.xcconfig"; sourceTree = "<group>"; };
+		BEC785FEB9A873CAFA4A6982 /* Pods_SunRain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SunRain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39DB0F1325BF4A8A00953A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4400F4173A9611BEEC0F7561 /* Pods_SunRain.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		397C345E25C09827000D5A0A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				397C346125C0990C000D5A0A /* SunRainModel.swift */,
+				397C346525C09922000D5A0A /* SunRainData.swift */,
+				397C346C25C099ED000D5A0A /* SunRainManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		397C345F25C09836000D5A0A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				39DB0F1F25BF4A8A00953A72 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		397C346025C09846000D5A0A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				39DB0F1D25BF4A8A00953A72 /* ViewController.swift */,
+				397C345B25C0879A000D5A0A /* ClimaViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		39DB0F0D25BF4A8A00953A72 = {
+			isa = PBXGroup;
+			children = (
+				39DB0F1825BF4A8A00953A72 /* SunRain */,
+				39DB0F1725BF4A8A00953A72 /* Products */,
+				FBC6B3EC488C54EF9EDD788D /* Pods */,
+				52A9CBFCBEB94B655F2628E5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		39DB0F1725BF4A8A00953A72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39DB0F1625BF4A8A00953A72 /* SunRain.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39DB0F1825BF4A8A00953A72 /* SunRain */ = {
+			isa = PBXGroup;
+			children = (
+				39DB0F1925BF4A8A00953A72 /* AppDelegate.swift */,
+				39DB0F1B25BF4A8A00953A72 /* SceneDelegate.swift */,
+				397C345E25C09827000D5A0A /* Model */,
+				397C345F25C09836000D5A0A /* View */,
+				397C346025C09846000D5A0A /* Controller */,
+				39DB0F2225BF4A8E00953A72 /* Assets.xcassets */,
+				39DB0F2425BF4A8E00953A72 /* LaunchScreen.storyboard */,
+				39DB0F2725BF4A8E00953A72 /* Info.plist */,
+			);
+			path = SunRain;
+			sourceTree = "<group>";
+		};
+		52A9CBFCBEB94B655F2628E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEC785FEB9A873CAFA4A6982 /* Pods_SunRain.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBC6B3EC488C54EF9EDD788D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A3DC37E08BF464DF142FA6D /* Pods-SunRain.debug.xcconfig */,
+				2C857FC5397002A205142D9B /* Pods-SunRain.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39DB0F1525BF4A8A00953A72 /* SunRain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39DB0F2A25BF4A8E00953A72 /* Build configuration list for PBXNativeTarget "SunRain" */;
+			buildPhases = (
+				B62341948656682AF5BB5165 /* [CP] Check Pods Manifest.lock */,
+				39DB0F1225BF4A8A00953A72 /* Sources */,
+				39DB0F1325BF4A8A00953A72 /* Frameworks */,
+				39DB0F1425BF4A8A00953A72 /* Resources */,
+				6DDDF927EE5489BA2DCD4D66 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunRain;
+			productName = SunRain;
+			productReference = 39DB0F1625BF4A8A00953A72 /* SunRain.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39DB0F0E25BF4A8A00953A72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					39DB0F1525BF4A8A00953A72 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 39DB0F1125BF4A8A00953A72 /* Build configuration list for PBXProject "SunRain" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39DB0F0D25BF4A8A00953A72;
+			productRefGroup = 39DB0F1725BF4A8A00953A72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39DB0F1525BF4A8A00953A72 /* SunRain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39DB0F1425BF4A8A00953A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DB0F2625BF4A8E00953A72 /* LaunchScreen.storyboard in Resources */,
+				39DB0F2325BF4A8E00953A72 /* Assets.xcassets in Resources */,
+				39DB0F2125BF4A8A00953A72 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6DDDF927EE5489BA2DCD4D66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SunRain/Pods-SunRain-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SunRain/Pods-SunRain-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SunRain/Pods-SunRain-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B62341948656682AF5BB5165 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SunRain-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39DB0F1225BF4A8A00953A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DB0F1E25BF4A8A00953A72 /* ViewController.swift in Sources */,
+				397C345C25C0879A000D5A0A /* ClimaViewController.swift in Sources */,
+				397C346D25C099ED000D5A0A /* SunRainManager.swift in Sources */,
+				397C346225C0990C000D5A0A /* SunRainModel.swift in Sources */,
+				39DB0F1A25BF4A8A00953A72 /* AppDelegate.swift in Sources */,
+				397C346625C09922000D5A0A /* SunRainData.swift in Sources */,
+				39DB0F1C25BF4A8A00953A72 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		39DB0F1F25BF4A8A00953A72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39DB0F2025BF4A8A00953A72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39DB0F2425BF4A8E00953A72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39DB0F2525BF4A8E00953A72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39DB0F2825BF4A8E00953A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39DB0F2925BF4A8E00953A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39DB0F2B25BF4A8E00953A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3DC37E08BF464DF142FA6D /* Pods-SunRain.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BK8C3LMCUC;
+				INFOPLIST_FILE = SunRain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brunoalves.SunRain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39DB0F2C25BF4A8E00953A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C857FC5397002A205142D9B /* Pods-SunRain.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BK8C3LMCUC;
+				INFOPLIST_FILE = SunRain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brunoalves.SunRain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39DB0F1125BF4A8A00953A72 /* Build configuration list for PBXProject "SunRain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DB0F2825BF4A8E00953A72 /* Debug */,
+				39DB0F2925BF4A8E00953A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39DB0F2A25BF4A8E00953A72 /* Build configuration list for PBXNativeTarget "SunRain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DB0F2B25BF4A8E00953A72 /* Debug */,
+				39DB0F2C25BF4A8E00953A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39DB0F0E25BF4A8A00953A72 /* Project object */;
+}

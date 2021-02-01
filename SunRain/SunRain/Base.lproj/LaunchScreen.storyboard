@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ovx-ij-zZf">
+                                <rect key="frame" x="0.0" y="313" width="414" height="270"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="curlybraces.square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="vUY-3X-kU6">
+                                        <rect key="frame" x="72" y="21" width="270" height="137.5"/>
+                                        <color key="tintColor" red="0.2029573023" green="0.54102098939999999" blue="0.63163220880000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="270" id="Viv-fh-YkS"/>
+                                            <constraint firstAttribute="height" constant="140" id="ztH-cU-56t"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bronves" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3wX-rW-XQv">
+                                        <rect key="frame" x="146.5" y="160" width="121" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="FAV-Ow-84Q"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120.5" id="nGK-ic-Ggk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="DamascusBold" family="Damascus" pointSize="30"/>
+                                        <color key="textColor" red="0.2029573023" green="0.54102098939999999" blue="0.63163220880000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Application Design and Developed by" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CbE-FM-WWG">
+                                        <rect key="frame" x="79.5" y="200" width="255" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="31" id="Tf3-W6-MLp"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="DamascusLight" family="Damascus" pointSize="15"/>
+                                        <color key="textColor" red="0.2029573023" green="0.54102098939999999" blue="0.63163220880000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bruno Alves" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wgF-cJ-kYB">
+                                        <rect key="frame" x="163" y="231" width="88.5" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="31" id="E9B-K4-zz2"/>
+                                            <constraint firstAttribute="height" constant="45" id="Psw-oM-Ofp"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="DamascusSemiBold" family="Damascus" pointSize="15"/>
+                                        <color key="textColor" red="0.2029573023" green="0.54102098939999999" blue="0.63163220880000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="wgF-cJ-kYB" firstAttribute="top" secondItem="CbE-FM-WWG" secondAttribute="bottom" id="BdS-WU-8vK"/>
+                                    <constraint firstItem="CbE-FM-WWG" firstAttribute="top" secondItem="3wX-rW-XQv" secondAttribute="bottom" id="EhW-wp-52A"/>
+                                    <constraint firstItem="wgF-cJ-kYB" firstAttribute="centerX" secondItem="ovx-ij-zZf" secondAttribute="centerX" id="GqY-Iq-CsG"/>
+                                    <constraint firstAttribute="height" constant="270" id="NXk-4L-Zoa"/>
+                                    <constraint firstItem="vUY-3X-kU6" firstAttribute="top" secondItem="ovx-ij-zZf" secondAttribute="top" constant="20" id="Q57-Tb-irA"/>
+                                    <constraint firstItem="3wX-rW-XQv" firstAttribute="top" secondItem="vUY-3X-kU6" secondAttribute="bottom" id="XI6-Lv-UNf"/>
+                                    <constraint firstItem="vUY-3X-kU6" firstAttribute="centerX" secondItem="ovx-ij-zZf" secondAttribute="centerX" id="dsI-m0-9PT"/>
+                                    <constraint firstItem="3wX-rW-XQv" firstAttribute="centerX" secondItem="ovx-ij-zZf" secondAttribute="centerX" id="iap-Zv-Agl"/>
+                                    <constraint firstItem="CbE-FM-WWG" firstAttribute="centerX" secondItem="ovx-ij-zZf" secondAttribute="centerX" id="sym-JR-JFl"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ovx-ij-zZf" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="3TU-VS-iR9"/>
+                            <constraint firstItem="ovx-ij-zZf" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Ufb-qD-zYA"/>
+                            <constraint firstItem="ovx-ij-zZf" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Ws6-PZ-dCP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="curlybraces.square" catalog="system" width="128" height="114"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
