@@ -7,5 +7,4 @@
 # - Cococapods
 # - API
 # - JSON
-![alt text](https://github.com/brunofonsecaalves/SunRainApp/blob/main/SunRainApp%205.png)
-<img src="https://github.com/brunofonsecaalves/SunRainApp/blob/main/SunRainApp%205.png" width="48">
+<img src="https://github.com/brunofonsecaalves/SunRainApp/blob/main/SunRainApp%205.png" width="100">
